@@ -19,10 +19,6 @@ let noteData = [
     id: 4,
     note: 'say hello',
   },
-  {
-    hi: 78,
-    ne: 'ggd',
-  },
 ];
 console.info(noteData);
 
@@ -40,10 +36,10 @@ let Card2 = function (id, content) {
     <div class="card">  ${(id, content)}</div>`;
 };
 
-let Card3 = function (id, ne, content) {
-  return `
-    <div class="card"> ${(id, ne, content)}</div>`;
-};
+// let Card3 = function (id, ne, content) {
+//   return `
+//     <div class="card"> ${(id, ne, content)}</div>`;
+// };
 
 // render object padda array ke halaman html
 noteData.forEach((elem) => {
