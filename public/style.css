@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-color: whitesmoke;
+  overflow-x: hidden;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+main h1 {
+  color: aqua;
+  transition: 5s;
+}
+main h1:hover {
+  color: springgreen;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+.card {
+  width: inherit;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 12px;
+  background-color: white;
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.384);
+  border-radius: 10px;
+}
