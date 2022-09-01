@@ -20,8 +20,8 @@ let noteData = [
     note: 'say hello',
   },
   {
-    hi: 78,
-    ne: 'ggd',
+    id: 5,
+    note: 'ggd',
   },
 ];
 console.info(noteData);
@@ -44,5 +44,5 @@ let Card2 = function (id, content) {
 noteData.forEach((elem) => {
   // console.info(elem);
 
-  root.innerHTML += Card3(elem.ne, elem.id, elem.note);
+  root.innerHTML += Card2(elem.id, elem.note);
 });
